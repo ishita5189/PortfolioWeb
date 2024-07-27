@@ -87,9 +87,15 @@ className="rounded-full md:w-[350px] md:h-[350px] ring-4 ring-blue-800 ring-offs
           </div>
         </div>
       </div>
-      <b className="relative bottom-20 left-60"><a href="https://drive.google.com/file/d/17dEw3yA0KdIWhSrtH-J2DU-_UW1LDNTu/view" 
-      className=" text-blue-800 dark:text-blue-600 text-2xl md:text-2xl underline hover:text-blue-700  dark:hover:text-blue-400" target="_blank">Download Resume</a></b>
-    </>
+      <a 
+  href="/resume.pdf" 
+  className="text-blue-800 dark:text-blue-600 text-2xl md:text-2xl hover:text-blue-700 dark:hover:text-blue-400 ml-[250px] mt-[250px]" 
+  download
+>
+  Download Resume ⬇️
+</a>
+
+  </>
   )
 }
 export default Home;

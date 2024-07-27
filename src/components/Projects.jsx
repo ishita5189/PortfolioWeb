@@ -24,7 +24,7 @@ function Projects() {
       descr: "A showcase of my skills, built using React and styled with Tailwind CSS. It has features like dark mode option and contact form.",
       ts: "Tech Stack: React | Tailwind CSS",
       vid: "https://drive.google.com/file/d/1z-gLpU_PT764GmUUwSrP3lbdQBIM1RPN/view?usp=sharing" ,
-      link:"https://portfoliowebsiteishita.netlify.app/" ,
+      link:"https://ishita-portfolioweb.vercel.app/" ,
       cde: "https://github.com/ishita5189/PortfolioWebsite",
     },
     {
@@ -33,9 +33,9 @@ function Projects() {
     name: "WordToPDF",
     descr: "Converts a docx file to pdf with functionalities like File History and Toggle Dark Mode.",
     ts: "Tech Stack: React | Tailwind CSS | NodeJS",
-    vid: "https://drive.google.com/file/d/1z-gLpU_PT764GmUUwSrP3lbdQBIM1RPN/view?usp=sharing" ,
-    link:"https://synergyservice.netlify.app/" ,
-    cde: "https://github.com/ishita5189/SynergyService",
+    vid: "https://drive.google.com/file/d/1jXwo5PYRBdkDfzy_TgucJiUYCt2xdARU/view" ,
+    link:"https://word-to-pdf-frontend.vercel.app/" ,
+    cde: "https://github.com/ishita5189/WordToPdf",
      
     },
     {id: 4,
@@ -44,8 +44,8 @@ function Projects() {
     descr: "Local storage-based To-Do app offers secure management. It stores data within the browser for persistent access even offline. Fast-loading and user-friendly.",
     ts: "Tech Stack: NextJS",
     vid: "https://drive.google.com/file/d/1z-gLpU_PT764GmUUwSrP3lbdQBIM1RPN/view?usp=sharing" ,
-    link:"https://todolist-student.netlify.app/" ,
-    cde: "https://github.com/ishita5189/ToDo-List",
+    link:"https://todolist-next-blue.vercel.app/" ,
+    cde: "https://github.com/ishita5189/todolist-next",
   },
   {
     id: 5,
@@ -63,9 +63,9 @@ function Projects() {
     name: "Sorting Visulaization Tool",
     descr: "This website helps people by providing an interactive and visual way to understand and compare various algorithms effectively.",
     ts: "Tech Stack: HTML | CSS | JS | C++",
-    vid: "https://drive.google.com/file/d/1z-gLpU_PT764GmUUwSrP3lbdQBIM1RPN/view?usp=sharing" ,
+    vid: "https://drive.google.com/file/d/1clOGYnBAXA0LNN3YNow8oCljMpeh01tp/view" ,
       link:"https://differentsortingvisualizer.netlify.app/" ,
-      cde: "https://github.com/ishita5189/SynergyService",
+      cde: "https://github.com/ishita5189/sortingvisualizer",
   }, 
              ];
   return (
