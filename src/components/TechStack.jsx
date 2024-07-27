@@ -6,6 +6,7 @@ import javascript from "../../public/javascript.png";
 import react from "../../public/reactjs.png";
 import sql from "../../public/sql.jpg";
 import mern from "../../public/mern.jpeg";
+
 function TechStack() {
   const cardItem = [
     { id: 1, logo: html, name: "HTML" },
@@ -16,33 +17,38 @@ function TechStack() {
     { id: 6, logo: sql, name: "SQL" },
     { id: 7, logo: mern, name: "MERN Stack" },
   ];
+
   return (
-    <>
-       <div
+    <div
       name="TechStack"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-1">
+      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-10"
+    >
       <div>
-        <h1 className=" text-blue-800 text-3xl font-bold mb-2 hover:underline  dark:text-blue-500">TECH STACK</h1>
-        <p className="  ">
-          I have been working with following technologies.
+        <h1 className="text-blue-800 text-3xl font-bold mb-2 hover:underline dark:text-blue-500">
+          TECH STACK
+        </h1>
+        <p className="mb-4">
+          I have been working with the following technologies:
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-7 gap-7 my-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-6 md:gap-8">
           {cardItem.map(({ id, logo, name }) => (
             <div
-              className=" flex flex-col items-center justify-center border-[2px] grayscale hover:grayscale-0
-               rounded-full md:w-[150px] md:h-[150px] shadow-md dark:shadow-blue-800 p-1 cursor-pointer ring-offset-2 ring-2 ring-inset hover:scale-110 duration-300"
+              className="flex flex-col items-center justify-center border-2 border-gray-300 dark:border-gray-700 rounded-full md:w-32 md:h-32 shadow-md dark:shadow-blue-800 p-2 cursor-pointer ring-offset-2 ring-2 ring-inset hover:scale-110 duration-300 hover:grayscale-0 grayscale"
               key={id}
             >
-              <img src={logo} className="w-[100px] rounded-full " alt="{name}" /> {/*image*/}
-              <div>
-                <div className="">{name}</div>
+              <img
+                src={logo}
+                className="w-24 h-24 rounded-full"
+                alt={name}
+              />
+              <div className="mt-2 text-center text-lg font-medium dark:text-white">
+                {name}
               </div>
             </div>
           ))}
         </div>
       </div>
     </div>
-   </>
   );
 }
 
