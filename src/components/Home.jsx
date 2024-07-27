@@ -88,7 +88,7 @@ className="rounded-full md:w-[350px] md:h-[350px] ring-4 ring-blue-800 ring-offs
         </div>
       </div>
       <a 
-  href="../../public/ISHITA_SHARMA_RESUME__.pdf" 
+  href="/ISHITA_SHARMA_RESUME__.pdf" 
   className="text-blue-800 dark:text-blue-600 text-2xl md:text-2xl hover:text-blue-700 dark:hover:text-blue-400 ml-[250px] mt-[250px]" 
   download
 >
