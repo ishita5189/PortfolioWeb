@@ -82,7 +82,7 @@ function Home() {
           <div className="md:w-1/2 flex justify-center md:justify-end order-1">
             <img
               src={photo}
-              className="rounded-full w-32 h-32 md:w-[350px] md:h-[350px] ring-4 ring-blue-800 ring-offset-4 shadow-2xl dark:shadow-blue-800 hover:scale-105 duration-200 cursor-pointer"
+              className="rounded-full w-32 h-32 mt-28 mr-10 md:w-[350px] md:h-[350px] ring-4 ring-blue-800 ring-offset-4 shadow-2xl dark:shadow-blue-800 hover:scale-105 duration-200 cursor-pointer"
               alt="Profile"
             />
           </div>
