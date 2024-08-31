@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from "../../public/photo.jpg";
+import photo from "../../public/photo.png";
 
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -82,7 +82,7 @@ function Home() {
           <div className="md:w-1/2 flex justify-center md:justify-end order-1">
             <img
               src={photo}
-              className="rounded-full w-32 h-32 mt-28 mr-10 md:w-[350px] md:h-[350px] ring-4 ring-blue-800 ring-offset-4 shadow-2xl dark:shadow-blue-800 hover:scale-105 duration-200 cursor-pointer"
+              className="rounded-full w-30 h-30 mt-28 mr-10 md:w-[350px] md:h-[350px] scale-95 hover:scale-115 ring-4 ring-blue-800 ring-offset-4 shadow-2xl dark:shadow-blue-800 hover:scale-105 duration-200 cursor-pointer"
               alt="Profile"
             />
           </div>
@@ -90,7 +90,7 @@ function Home() {
       </div>
       <div className="text-center mt-12">
         <a 
-          href="/ISHITA_SHARMA_RESUME__.pdf" 
+          href="/ISHITASHARMA_RESUME_.pdf" 
           className="text-blue-800 dark:text-blue-600 text-xl md:text-2xl hover:text-blue-700 dark:hover:text-blue-400" 
           download
         >
